@@ -1,16 +1,40 @@
-# React + Vite
+# 🔐 Secure Role-Based Access Control (RBAC) Web Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+- **Frontend (Vercel):** [https://my-rbac-app.vercel.app](https://my-rbac-app.vercel.app/)  
+- **Backend API (Render):** [https://my-rbac-app.onrender.com](https://my-rbac-app.onrender.com)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 📖 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a **full-stack web application** designed to demonstrate a **secure and scalable implementation of Role-Based Access Control (RBAC)**.  
+Built using **MERN stack principles**, it addresses the critical security risk of **“Broken Access Control” (OWASP Top 10 #1)** by enforcing strict permission checks on both the frontend and backend.
+
+### System Roles
+
+- 🛡️ **Admin:** Full system access (Create, Read, Update, Delete **any** content).  
+- ✍️ **Editor:** Can create and edit/delete **only their own** content.  
+- 👀 **Viewer:** Read-only access to public content.
+
+---
+
+## ✨ Key Features
+
+- **Secure Authentication:** Uses **JSON Web Tokens (JWT)** for stateless, tamper-proof authentication.  
+- **Dual-Layer Authorization:**  
+  - **UI Guarding:** Implemented with a React Higher-Order Component (**PermissionGate**) to dynamically hide/disable restricted UI elements.  
+  - **API Enforcement:** Node.js middleware (**authorize**) rigorously validates every request on the backend.  
+- **Row-Level Security:** Editors cannot alter data they don’t own, even if permissions exist.  
+- **Modern UI/UX:** Responsive, professional interface built using **React** and **Tailwind CSS**.
+
+---
+
+## 📸 Screenshots & Demo
+- **Login Page:**
+
+  ![Login Page Screenshot](https://github.com/ravishankar1810/MY-RBAC-APP/blob/400648caddb7e9b7667799e13ac41e949ffd8948/Screenshot%202025-11-10%20005122.png?raw=true)
