@@ -38,3 +38,84 @@ Built using **MERN stack principles**, it addresses the critical security risk o
 - **Login Page:**
 
   ![Login Page Screenshot](https://github.com/ravishankar1810/MY-RBAC-APP/blob/400648caddb7e9b7667799e13ac41e949ffd8948/Screenshot%202025-11-10%20005122.png?raw=true)
+
+- **Admin page:** 
+
+  ![admin page](https://github.com/ravishankar1810/MY-RBAC-APP/blob/bde10c60b6d27d89f2e4f6196597f4da4620018f/Screenshot%202025-11-10%20121046.png)
+
+- **Editor page:**
+
+![edittor page](https://github.com/ravishankar1810/MY-RBAC-APP/blob/0d32e7907a4b958dff66068909214805107f9acd/Screenshot%202025-11-10%20121734.png)
+
+
+
+### [🎥 Video Walkthrough](https://youtu.be/4dNuVgB-4f4)
+[![Watch the video](https://img.youtube.com/vi/4dNuVgB-4f4/maxresdefault.jpg)](https://youtu.be/4dNuVgB-4f4)
+
+
+
+### 🖥️ Application Screenshots
+
+#### 🔑 Secure Login Screen  
+#### 🛡️ Admin Dashboard (Full Access)
+- Clear role-based entry points  
+- Create, Edit, and Delete for all posts  
+
+#### ✍️ Editor Dashboard (Restricted)
+- Can only edit own posts  
+- Disabled action buttons for others  
+
+#### 👀 Viewer Dashboard (Read-Only)
+- View-only mode  
+- No action buttons visible  
+
+> **Note:** Create a folder named `screenshots` in your project and add images (e.g., `login.png`, `admin-dashboard.png`, etc.) to display them properly.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React.js, Vite, Tailwind CSS, Lucide React (Icons) |
+| **Backend** | Node.js, Express.js |
+| **Security** | JSON Web Token (JWT), CORS |
+| **Deployment** | Vercel (Client), Render (Server) |
+
+---
+
+## 🏃‍♂️ How to Run Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/MY-RBAC-APP.git
+cd MY-RBAC-APP
+```
+### 2️⃣ Setup & Run Backend Server
+```
+cd server
+npm install
+node server.js
+# Server will start on http://localhost:3001
+```
+### 3️⃣ Setup & Run Frontend Client (in a new terminal)
+```
+# From root folder
+npm install
+npm run dev
+# Client will start on http://localhost:5173
+```
+
+### 👥 Contributors
+| Name           | Roll Number |
+| -------------- | ----------- |
+| Ravi Shankar   | 23BCS11920  |
+| Rishu Kumar    | 23BCS10208  |
+| Ayush Jaswal   | 23BCS11532  |
+| Devesh Rajpoot | 23BCS13411  |
+
+## Supervisor: Suyash Gupta (T2191)
+
+
+
