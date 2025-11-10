@@ -69,7 +69,6 @@ Built using **MERN stack principles**, it addresses the critical security risk o
 - View-only mode  
 - No action buttons visible  
 
-> **Note:** Create a folder named `screenshots` in your project and add images (e.g., `login.png`, `admin-dashboard.png`, etc.) to display them properly.
 
 ---
 
